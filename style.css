@@ -146,15 +146,15 @@
 .card-img,
 .card-img-bottom,
 .card-img-top {
-    width: 80px;
+    width: 94px;
     background-color: rgba(253, 114, 28, 1);
-    height: 80px;
+    height: 94px;
     padding: 2px;
     border: 10px solid rgba(253, 114, 28, 1);
-    border-radius: 70px;
+    border-radius: 39px;
     position: absolute;
     top: -27px;
-    right: 225px;
+    right: 194px;
 }
 
 .card {
@@ -191,7 +191,7 @@ svg {
 
 .card-body {
     flex: 1 1 auto;
-    padding: 3rem 1rem;
+    padding: 5rem 1rem;
 }
 
 .main-heading {
