@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.navbar>.container,
+.navbar>.container-fluid,
+.navbar>.container-lg,
+.navbar>.container-md,
+.navbar>.container-sm,
+.navbar>.container-xl,
+.navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #252679;
+}
+
+.btn-outline-success {
+    border-color: white;
+    border-radius: 30px;
+}
+
+.main-action1 {
+    background-image: url('https://www.dangalarena.com/assets/img/hero-section-background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 85vh;
+    width: 100%;
+}
+
+.main-action1 h1 {
+    color: aqua;
+}
+
+.how-we-are {
+    margin: 27px;
+
+}
+
+.heading-for-how-we-are {
+    position: relative;
+    text-align: center;
+}
+
+/* .heading-for-feature-app{ */
+/* position: relative; */
+/* } */
+/*  */
+
+/* .heading-for-how-we-are .line h3::before { */
+/* content: ""; */
+/* background-color: orange; */
+/* height: 15px; */
+/* width: 5px; */
+/* position: absolute; */
+/* left: 241px; */
+/* bottom: -40px; */
+/* border-radius: 10px; */
+/* } */
+
+.how-we-are h3 span {
+    color: orange;
+}
+
+.how-we-are p {
+    text-align: justify;
+    padding: 10px;
+    word-spacing: 1px;
+}
+
+.feature-app {
+    text-align: center;
+}
+
+.heading-for-feature-app {
+    position: relative;
+
+}
+
+.line2::before {
+    content: "";
+    background-color: orange;
+    height: 15px;
+    width: 5px;
+    position: absolute;
+    left: 546px;
+    top: 8px;
+    right: 10px;
+    /* bottom: -240px; */
+    border-radius: 10px;
+}
+
+.line::before {
+    content: "";
+    background-color: orange;
+    height: 15px;
+    width: 5px;
+    position: absolute;
+    left: 599px;
+    top: 8px;
+    /* bottom: 10px; */
+    border-radius: 10px;
+}
+ span{
+    color: orange;
+}
+/* .how-we-are ::before{ */
+/* content: ""; */
+/* background-color: orange; */
+/* height: 15px; */
+/* width: 5px; */
+/* position: absolute; */
+/* left: 241px; */
+/* bottom: -41px; */
+/* border-radius: 10px; */
+/* } */
+/*  */
+/*  */
+
+.feature-app {
+    background-image: url(https://www.dangalarena.com/assets/img/Group.png);
+    background-repeat: no-repeat;
+
+}
+
+.heading-down span {
+    color: orange;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-img,
+.card-img-bottom,
+.card-img-top {
+    width: 80px;
+    background-color: rgba(253, 114, 28, 1);
+    height: 80px;
+    padding: 2px;
+    border: 10px solid rgba(253, 114, 28, 1);
+    border-radius: 70px;
+    position: absolute;
+    top: -27px;
+    right: 225px;
+}
+
+.card {
+    background-color: #ebebeb;
+    margin: 20px;
+
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-text h4 {
+    font-size: 25px;
+}
+
+img,
+svg {
+    vertical-align: middle;
+    height: 70vh;
+}
+
+.cards2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-phone-card {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 30px;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 3rem 1rem;
+}
+
+.main-heading {
+    display: flex;
+    justify-content: space-between;
+    padding: 26px;
+}
+
+.main-heading .main-heading-title {
+    position: relative;
+
+
+}
+
+.main-heading .main-heading-title h3::before {
+    position: absolute;
+    content: "";
+    background-color: red;
+    height: 12px;
+    width: 5px;
+    top: 10px;
+    left: -5px;
+}
